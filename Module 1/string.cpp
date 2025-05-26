@@ -1,4 +1,7 @@
-#include <iostream>
+// #include <iostream>
+// to add all the header file
+#include<bits/stdc++.h>
+
 using namespace std;
 int main(){
     char s[100];
@@ -21,6 +24,7 @@ int main(){
 
     // also we can use string as a class( what is class will explained in next few session)
     string s3;
+    cin >> s3;
     cout << s3 << endl;
     return 0;
 }
