@@ -10,8 +10,13 @@ int main(){
         cin >> arr[i];
     }
     
-    int max_element = *max_element(arr.begin(), arr)
-   cout << 
+    int mx = INT_MIN;
+    for (int i = 0; i < x; i++)
+    {
+       mx =  max(mx,arr[i]);
+    }
+
+    cout << mx << endl;    
     
     return 0;
 }
