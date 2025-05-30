@@ -10,7 +10,7 @@ int* sort_fun(int n)
         cin >> arr[i];
     }
 
-    //ascending sort if the number is under 10^5
+    //ascending sort  but if it is about time complexity more than 10^7 number may take  more than a second
     sort(arr, arr + n);
     return arr;
     
