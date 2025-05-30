@@ -1,0 +1,4 @@
+3
+10 rahim A 95 5
+5 karim A 93 5
+3 alif A 95 5
