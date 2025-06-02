@@ -1,4 +1,10 @@
-hello
-hell
-o world
-aaaaa
+h
+e
+l
+l
+o
+w
+o
+r
+l
+d
