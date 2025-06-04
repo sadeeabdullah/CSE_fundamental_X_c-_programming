@@ -10,14 +10,55 @@ public:
 
 bool cmp(Student l, Student r) // here we want to sort the array ascending order 
 {
-    if (l.marks < r.marks)
-    {
-        return true;
-    }
-    else
-    {
-        return false;
-    }
+    // if (l.marks < r.marks)
+    // {
+    //     return true;
+    // }
+    // else
+    // {
+    //     return false;
+    // }
+
+    //or we can return the condition : you know condition return true or false
+    // return l.marks <= r.marks;
+
+
+    // if (l.marks < r.marks)
+    // {
+    //     return true;
+    // }
+    // else if(l.marks > r.marks)
+    // {
+    //     return false;
+    // }
+    // else{
+    // //     if(l.roll < r.roll)
+    // //     {
+    // //         return true;
+    // //     }
+    // //     else
+    // //     {
+    // //         return false;
+    // //     }
+    // // }
+    // return l.roll < r.roll;
+
+
+
+    //or you can use this short way
+
+    // if(l.marks == r.marks)
+    // {
+    //     return l.roll < r.roll;
+    // }
+    // else{
+    //     return l.marks < r.marks;
+    // }
+
+
+
+    // or
+    return (l.marks == r.marks) ? l.roll < r.roll : l.marks < r.marks;
 }
 int main()
 {
