@@ -10,17 +10,23 @@ int main()
         int n;
         cin >> n;
 
+        int a[n];
+        for (int i = 0; i < n; i++)
+        {
+            cin >> a[i];
+        }
+        
+
         if (n % 2 != 0)
         {
-            cout << "-1";
+            cout << "-1" << endl;
         }
         else
         {
-            int a[n];
+            // int a[n]; no need to take array because we are not using it later
             int even_count = 0;
             for (int i = 0; i < n; i++)
             {
-                cin >> a[i];
                 if (a[i] % 2 == 0)
                 {
                     even_count++;
@@ -29,10 +35,9 @@ int main()
 
             int even_needed = n / 2;
 
-            cout << abs(even_needed - even_count);
+            cout << abs(even_needed - even_count) << endl;
         }
 
-        cout << endl;
     }
     return 0;
 }
